@@ -14,7 +14,8 @@
     "test": "jest",
     "lint": "eslint .",
     "prebuild": "git clean -fdx dist",
-    "build": "tsup src/index.tsx --dts"
+    "build": "tsup src/index.tsx --dts",
+    "prepublish": "npm run build"
   },
   "repository": "https://github.com/Abhinandan-Kushwaha/react-native-gifted-charts",
   "author": "Abhinandan Kushwaha <kushabhi5@gmail.com> (https://github.com/Abhinandan-Kushwaha)",
